@@ -54,7 +54,7 @@ export interface UserProgress {
   certificates: string[];
 }
 
-export type ViewMode = 'modules' | 'topic' | 'flashcards' | 'quiz' | 'glossary' | 'comparison' | 'dashboard' | 'certificates' | 'casestudies' | 'practice' | 'career';
+export type ViewMode = 'modules' | 'topic' | 'flashcards' | 'quiz' | 'glossary' | 'comparison' | 'dashboard' | 'certificates' | 'casestudies' | 'practice' | 'career' | 'flexcube' | 'flexcube-topic' | 'flexcube-labs';
 
 export interface AppState {
   currentView: ViewMode;

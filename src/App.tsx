@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { CreditCard, Home, Award, LayoutDashboard, FileText, Briefcase, Moon, Sun, Trophy } from 'lucide-react';
+import { CreditCard, Home, Award, LayoutDashboard, FileText, Briefcase, Moon, Sun, Trophy, Code } from 'lucide-react';
 import { AppState, ViewMode, Achievement } from './types';
 import ModuleGrid from './components/ModuleGrid';
 import TopicView from './components/TopicView';
@@ -12,6 +12,9 @@ import CertificatesView from './components/CertificatesView';
 import CaseStudiesView from './components/CaseStudiesView';
 import PracticeProblemsView from './components/PracticeProblemsView';
 import CareerGuideView from './components/CareerGuideView';
+import FlexcubeDashboard from './components/FlexcubeDashboard';
+import FlexcubeTopicView from './components/FlexcubeTopicView';
+import FlexcubeLabsView from './components/FlexcubeLabsView';
 import Header from './components/Header';
 import { pointsSystem, badges } from './data/enhancedData';
 
@@ -244,6 +247,27 @@ function App() {
         );
       case 'career':
         return <CareerGuideView onBack={() => navigateToView('dashboard')} />;
+      case 'flexcube':
+        return (
+          <FlexcubeDashboard
+            userProgress={state.userProgress}
+            onModuleClick={(moduleId) => navigateToView('flexcube-topic', moduleId)}
+            onLabsClick={() => navigateToView('flexcube-labs')}
+          />
+        );
+      case 'flexcube-topic':
+        return (
+          <FlexcubeTopicView
+            moduleId={state.selectedModuleId!}
+            topicId={state.selectedTopicId}
+            onTopicSelect={(topicId) => navigateToView('flexcube-topic', state.selectedModuleId!, topicId)}
+            onBack={() => navigateToView('flexcube')}
+            onTopicComplete={markTopicComplete}
+            userProgress={state.userProgress}
+          />
+        );
+      case 'flexcube-labs':
+        return <FlexcubeLabsView onBack={() => navigateToView('flexcube')} />;
       default:
         return null;
     }
@@ -307,6 +331,13 @@ function App() {
                 label="Career"
                 isActive={state.currentView === 'career'}
                 onClick={() => navigateToView('career')}
+                isDark={isDarkMode}
+              />
+              <NavButton
+                icon={<Code size={18} />}
+                label="Flexcube"
+                isActive={state.currentView.startsWith('flexcube')}
+                onClick={() => navigateToView('flexcube')}
                 isDark={isDarkMode}
               />
             </div>
