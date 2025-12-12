@@ -14,13 +14,14 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 
 ## 📊 Course Statistics
 
-- **20 Major Modules** - Complete Islamic banking ecosystem
-- **98+ Topics** - Comprehensive coverage with real-world examples
-- **9,400+ Lines** - Detailed explanations, examples, and configurations
-- **551KB+ Content** - Production-ready learning material
-- **15+ Product Types** - CASA, Deposits, Financing, Cards, Treasury, Trade Finance, Zakat
+- **21 Major Modules** - Complete Islamic banking ecosystem
+- **102+ Topics** - Comprehensive coverage with real-world examples
+- **10,400+ Lines** - Detailed explanations, examples, and configurations
+- **580KB+ Content** - Production-ready learning material
+- **15+ Product Types** - CASA, Deposits, Financing, Cards, Treasury, Trade Finance, Zakat, Takaful
 - **Complete GL Flows** - All accounting entries with Flexcube table references
 - **Regulatory Framework** - AAOIFI, IFSB, Basel III, Central Bank reporting
+- **Risk Management** - Takaful (Islamic insurance) with bancassurance integration
 - **SQL Examples** - Database queries for troubleshooting and reporting
 - **Swift Integration** - Trade finance messages (MT700, MT760, MT400, etc.)
 - **Shariah Compliance** - Full SSB approval workflows and audit procedures
@@ -189,6 +190,13 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 - **Financial Reporting** - IFRS vs AAOIFI dual reporting framework
 - **Flexcube Configuration** - AAOIFI FAS templates, CAR calculation, regulatory report generation
 
+#### 2️⃣2️⃣ Takaful (Islamic Insurance)
+- **Takaful Fundamentals** - Tabarru, Ta'awun, operational models (Wakalah, Mudharabah, Hybrid, Waqf)
+- **Family Takaful** - Life insurance (term, savings, group, credit protection), underwriting, claims
+- **General Takaful** - Motor, property, medical, travel, personal accident insurance
+- **Bancassurance Integration** - Premium collection, commission income, Flexcube configuration
+- **Takaful Accounting** - PTF vs SF fund accounting, IBNR provisioning, surplus distribution
+
 ## 🎓 Learning Outcomes
 
 After completing this course, you will be able to:
@@ -215,6 +223,7 @@ After completing this course, you will be able to:
 ✅ **Zakat management** - Configure automated calculation, generate customer statements
 ✅ **Provisioning (IFRS 9)** - Implement ECL calculation, stage classification
 ✅ **Collections** - Design collection workflows, handle restructuring
+✅ **Takaful operations** - Configure bancassurance, manage premium collection, process claims
 ✅ **Regulatory reporting** - Prepare annual reports, Shariah audit disclosures
 
 ## 💡 Key Features
@@ -316,7 +325,7 @@ npm run preview
 - Troubleshooting scenarios
 
 ### 4️⃣ **Master** - Achieve expertise
-- Complete module coverage (98+ topics)
+- Complete module coverage (102+ topics)
 - Track progress and achievements
 - Earn certificates (Bronze → Silver → Gold → Platinum → Master)
 - Apply to real-world Islamic banking implementations
@@ -450,13 +459,14 @@ MIT License - Free for educational and commercial use.
 
 ## 🎓 Course Completion Certificate
 
-Upon completing all 98 topics, learners achieve **Master** status and gain comprehensive expertise in:
+Upon completing all 102 topics, learners achieve **Master** status and gain comprehensive expertise in:
 
 ✅ Islamic Banking Shariah Principles
 ✅ Oracle Flexcube UBS Implementation
 ✅ Solution Architecture & Design
 ✅ GL Accounting & Financial Reporting
 ✅ International Trade Finance (LC, Guarantees, Collections)
+✅ Takaful & Risk Management (Islamic Insurance)
 ✅ Swift Message Integration
 ✅ Shariah Compliance & Governance
 ✅ Regulatory Compliance (AAOIFI, IFSB, Basel III)
