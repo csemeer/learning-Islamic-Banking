@@ -14,13 +14,14 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 
 ## 📊 Course Statistics
 
-- **18 Major Modules** - Complete Islamic banking ecosystem
-- **88+ Topics** - Comprehensive coverage with real-world examples
-- **7,000+ Lines** - Detailed explanations, examples, and configurations
-- **500KB+ Content** - Production-ready learning material
-- **10+ Product Types** - CASA, Deposits, Financing, Cards, Treasury, Zakat
+- **19 Major Modules** - Complete Islamic banking ecosystem
+- **94+ Topics** - Comprehensive coverage with real-world examples
+- **8,400+ Lines** - Detailed explanations, examples, and configurations
+- **527KB+ Content** - Production-ready learning material
+- **15+ Product Types** - CASA, Deposits, Financing, Cards, Treasury, Trade Finance, Zakat
 - **Complete GL Flows** - All accounting entries with Flexcube table references
 - **SQL Examples** - Database queries for troubleshooting and reporting
+- **Swift Integration** - Trade finance messages (MT700, MT760, MT400, etc.)
 - **Shariah Compliance** - Full SSB approval workflows and audit procedures
 
 ## 🏗️ Complete Module Structure
@@ -51,7 +52,7 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 - Profit vs Interest Calculation
 - Risk Sharing Mechanisms
 
-### **Level 2: Products & Services (6 Modules)**
+### **Level 2: Products & Services (7 Modules)**
 
 #### 5️⃣ Murabahah (Cost-Plus Sale) Financing
 - **Complete Lifecycle:** Asset purchase → Markup → Sale → Installments → Settlement
@@ -75,19 +76,45 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 - Ownership transfer tracking
 - **Complete Example:** $200K home - 80% bank, 20% customer → Full customer ownership
 
-#### 8️⃣ Islamic Cards (IC)
+#### 8️⃣ Salam & Istisna Financing
+- **Salam (Forward Purchase):** Pay now, receive later - Agricultural financing
+  - Complete lifecycle with parallel Salam
+  - Delivery scenarios (successful, partial, default)
+  - Commodity specifications and quality control
+  - **Use Cases:** Date farming, wheat, oil, commodity trading
+- **Istisna (Manufacturing/Construction):** Order to manufacture/build
+  - Progressive payment milestones
+  - Work-in-Progress (WIP) tracking
+  - Quality inspection and acceptance
+  - **Use Cases:** Real estate, infrastructure, equipment manufacturing
+
+#### 9️⃣ Islamic Cards (IC)
 - **Debit Cards:** Wadiah-based with no credit facility
 - **Credit Cards:** Tawarruq-based (commodity Murabahah)
 - Transaction Processing & Settlement
 - Shariah-Compliant Rewards (No interest-based cashback)
 
-#### 9️⃣ Islamic Treasury & Investment
+#### 🔟 Islamic Treasury & Investment
 - Sukuk (Islamic Bonds) - Asset-backed securities
 - Wakala Investment Accounts - Agency-based investments
 - Islamic Money Market Instruments
 - Treasury Accounting & Fair Value Measurement
 
-#### 🔟 Zakat Calculation & Management
+#### 1️⃣1️⃣ Islamic Trade Finance
+- **Letters of Credit (LC):** Murabahah-based and Wakalah-based structures
+  - Import/Export LC with complete documentation flow
+  - Asset ownership requirements (Murabahah)
+  - Swift messages (MT700, MT710, MT720)
+- **Bank Guarantees (Kafalah):** Performance bonds, bid bonds, advance payment guarantees
+  - Cash margin and collateral management
+  - Claim handling and recovery
+  - 5 guarantee types with complete workflows
+- **Documentary Collections:** D/P and D/A instruments
+  - Pure Wakalah (agency) structure
+  - Lower cost alternative to LC
+- **Trade Finance Accounting:** Contingent liabilities, fee income, GL flows
+
+#### 1️⃣2️⃣ Zakat Calculation & Management
 - **Zakat Fundamentals:** Nisab (85g gold), Hawl (354 days), 2.5% rate
 - **Automated Calculation:** Flexcube STZAKAT configuration
 - **SQL Logic:** Customer aggregation, Nisab checking, deduction
@@ -96,26 +123,26 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 
 ### **Level 3: Technical Implementation (4 Modules)**
 
-#### 1️⃣1️⃣ Gateway (GW) - Multi-channel Integration
+#### 1️⃣3️⃣ Gateway (GW) - Multi-channel Integration
 - ATM, Mobile Banking, Internet Banking, POS
 - ISO 8583 Message Processing
 - Transaction Routing & Authorization
 - Reconciliation & Settlement
 
-#### 1️⃣2️⃣ Batch Input (DE) - Data Entry & Upload
+#### 1️⃣4️⃣ Batch Input (DE) - Data Entry & Upload
 - Bulk Transaction Upload (CSV, Excel, FTP)
 - Batch Validation & Error Handling
 - Maker-Checker Workflow
 - Batch Accounting & Reversal
 
-#### 1️⃣3️⃣ Provisioning & ECL (IFRS 9)
+#### 1️⃣5️⃣ Provisioning & ECL (IFRS 9)
 - Expected Credit Loss Calculation
 - 3-Stage Model (Stage 1, 2, 3)
 - Lifetime ECL vs 12-month ECL
 - Provision GL Entries
 - **Flexcube Tables:** PROV_MASTER, PROV_CALCULATION
 
-#### 1️⃣4️⃣ Collections & Recovery
+#### 1️⃣6️⃣ Collections & Recovery
 - Delinquency Stages (DPD tracking)
 - Collection Strategies & Workflows
 - Restructuring & Rescheduling
@@ -123,7 +150,7 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 
 ### **Level 4: Advanced Operations (4 Modules)**
 
-#### 1️⃣5️⃣ Accounting & General Ledger (GL)
+#### 1️⃣7️⃣ Accounting & General Ledger (GL)
 - **Complete GL Account Structure** (10000-99999)
   - 10000: Assets (Cash, Financing Receivables, Fixed Assets)
   - 20000: Liabilities (Customer Deposits, Payables)
@@ -134,20 +161,20 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 - **Complete GL Flows** for all products (Murabahah, Ijarah, Musharakah, etc.)
 - Multi-currency Accounting & FX Gain/Loss
 
-#### 1️⃣6️⃣ Flexcube Product Parameters Reference
+#### 1️⃣8️⃣ Flexcube Product Parameters Reference
 - **CASA Parameters:** Product code, currency, Shariah contract type, Hibah settings
 - **Murabahah Parameters:** Asset ownership flags, profit calculation, early settlement, collateral
 - **Ijarah Parameters:** Asset configuration, rental calculation, maintenance responsibility
 - **Critical Parameter Checklist** - 20+ must-configure parameters
 - **All Flexcube Screens:** STDPRD, STDACMNT, STDINTRT, STDACCEVT, etc.
 
-#### 1️⃣7️⃣ Shariah Governance Framework
+#### 1️⃣9️⃣ Shariah Governance Framework
 - **Shariah Supervisory Board (SSB)** Structure
 - **8-Stage Product Approval Process** (Concept → Launch → Annual Review)
 - **Compliance Monitoring** - Transaction audit, income purification
 - **Shariah Audit Procedures** - Annual audit checklist
 
-#### 1️⃣8️⃣ Troubleshooting & Common Issues
+#### 2️⃣0️⃣ Troubleshooting & Common Issues
 - **GL Mismatch & Reconciliation** - SQL queries for debugging
 - **Batch Job & EOD Failures** - Recovery procedures
 - **Shariah Compliance Errors** - Violation remediation (e.g., late fees to charity)
@@ -207,10 +234,11 @@ After completing this course, you will be able to:
 - **Audit Checklists** - 30+ compliance checkpoints
 
 ### 📊 **Complete GL Accounting**
-- **All Product GL Flows** - Murabahah, Ijarah, Musharakah, CASA, TD, Cards
-- **Multi-currency** - FX gain/loss accounting
+- **All Product GL Flows** - Murabahah, Ijarah, Musharakah, Salam, Istisna, CASA, TD, Cards, Trade Finance
+- **Multi-currency** - FX gain/loss accounting, Nostro account handling
 - **Provision Accounting** - IFRS 9 ECL entries
 - **Zakat Accounting** - Customer deduction and distribution
+- **Trade Finance Accounting** - Contingent liabilities, cash margins, claim recovery
 - **Reconciliation** - GL balancing and mismatch resolution
 
 ## 🛠️ Technology Stack
@@ -253,10 +281,11 @@ npm run preview
 
 1. **Start with Foundation** - Master Riba, Gharar, and core principles
 2. **Learn CASA & Deposits** - Understand Wadiah and Mudharabah
-3. **Master Financing Products** - Murabahah, Ijarah, Musharakah flows
-4. **Study GL Accounting** - Learn complete accounting entries
-5. **Practice Troubleshooting** - Use SQL queries to debug issues
-6. **Complete Shariah Governance** - Understand SSB approval workflows
+3. **Master Financing Products** - Murabahah, Ijarah, Musharakah, Salam, Istisna flows
+4. **Study Trade Finance** - LC, Guarantees, Documentary Collections
+5. **Study GL Accounting** - Learn complete accounting entries
+6. **Practice Troubleshooting** - Use SQL queries to debug issues
+7. **Complete Shariah Governance** - Understand SSB approval workflows
 
 ## 📖 Learning Approach
 
@@ -279,7 +308,7 @@ npm run preview
 - Troubleshooting scenarios
 
 ### 4️⃣ **Master** - Achieve expertise
-- Complete module coverage (88+ topics)
+- Complete module coverage (94+ topics)
 - Track progress and achievements
 - Earn certificates (Bronze → Silver → Gold → Platinum → Master)
 - Apply to real-world Islamic banking implementations
@@ -413,12 +442,14 @@ MIT License - Free for educational and commercial use.
 
 ## 🎓 Course Completion Certificate
 
-Upon completing all 88 topics, learners achieve **Master** status and gain comprehensive expertise in:
+Upon completing all 94 topics, learners achieve **Master** status and gain comprehensive expertise in:
 
 ✅ Islamic Banking Shariah Principles
 ✅ Oracle Flexcube UBS Implementation
 ✅ Solution Architecture & Design
 ✅ GL Accounting & Financial Reporting
+✅ International Trade Finance (LC, Guarantees, Collections)
+✅ Swift Message Integration
 ✅ Shariah Compliance & Governance
 ✅ Operations & Troubleshooting
 
