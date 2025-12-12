@@ -14,12 +14,13 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 
 ## 📊 Course Statistics
 
-- **19 Major Modules** - Complete Islamic banking ecosystem
-- **94+ Topics** - Comprehensive coverage with real-world examples
-- **8,400+ Lines** - Detailed explanations, examples, and configurations
-- **527KB+ Content** - Production-ready learning material
+- **20 Major Modules** - Complete Islamic banking ecosystem
+- **98+ Topics** - Comprehensive coverage with real-world examples
+- **9,400+ Lines** - Detailed explanations, examples, and configurations
+- **551KB+ Content** - Production-ready learning material
 - **15+ Product Types** - CASA, Deposits, Financing, Cards, Treasury, Trade Finance, Zakat
 - **Complete GL Flows** - All accounting entries with Flexcube table references
+- **Regulatory Framework** - AAOIFI, IFSB, Basel III, Central Bank reporting
 - **SQL Examples** - Database queries for troubleshooting and reporting
 - **Swift Integration** - Trade finance messages (MT700, MT760, MT400, etc.)
 - **Shariah Compliance** - Full SSB approval workflows and audit procedures
@@ -181,6 +182,13 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 - **Transaction Processing Errors** - Timeout, duplicates, currency mismatch
 - **Performance Optimization** - Indexing, batch tuning, memory management
 
+#### 2️⃣1️⃣ Regulatory Compliance & Reporting
+- **AAOIFI Standards** - Shariah (59+), Accounting (27+), Governance (7+) standards implementation
+- **IFSB Guidelines** - Capital Adequacy (Basel III), risk management, prudential standards
+- **Central Bank Reporting** - Daily liquidity, quarterly prudential, annual Shariah compliance
+- **Financial Reporting** - IFRS vs AAOIFI dual reporting framework
+- **Flexcube Configuration** - AAOIFI FAS templates, CAR calculation, regulatory report generation
+
 ## 🎓 Learning Outcomes
 
 After completing this course, you will be able to:
@@ -308,7 +316,7 @@ npm run preview
 - Troubleshooting scenarios
 
 ### 4️⃣ **Master** - Achieve expertise
-- Complete module coverage (94+ topics)
+- Complete module coverage (98+ topics)
 - Track progress and achievements
 - Earn certificates (Bronze → Silver → Gold → Platinum → Master)
 - Apply to real-world Islamic banking implementations
@@ -442,7 +450,7 @@ MIT License - Free for educational and commercial use.
 
 ## 🎓 Course Completion Certificate
 
-Upon completing all 94 topics, learners achieve **Master** status and gain comprehensive expertise in:
+Upon completing all 98 topics, learners achieve **Master** status and gain comprehensive expertise in:
 
 ✅ Islamic Banking Shariah Principles
 ✅ Oracle Flexcube UBS Implementation
@@ -451,6 +459,7 @@ Upon completing all 94 topics, learners achieve **Master** status and gain compr
 ✅ International Trade Finance (LC, Guarantees, Collections)
 ✅ Swift Message Integration
 ✅ Shariah Compliance & Governance
+✅ Regulatory Compliance (AAOIFI, IFSB, Basel III)
 ✅ Operations & Troubleshooting
 
 ---
