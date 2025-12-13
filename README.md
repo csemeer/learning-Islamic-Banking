@@ -14,14 +14,15 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 
 ## 📊 Course Statistics
 
-- **21 Major Modules** - Complete Islamic banking ecosystem
-- **102+ Topics** - Comprehensive coverage with real-world examples
-- **10,400+ Lines** - Detailed explanations, examples, and configurations
-- **580KB+ Content** - Production-ready learning material
+- **22 Major Modules** - Complete Islamic banking ecosystem
+- **106+ Topics** - Comprehensive coverage with real-world examples
+- **11,500+ Lines** - Detailed explanations, examples, and configurations
+- **617KB+ Content** - Production-ready learning material
 - **15+ Product Types** - CASA, Deposits, Financing, Cards, Treasury, Trade Finance, Zakat, Takaful
 - **Complete GL Flows** - All accounting entries with Flexcube table references
 - **Regulatory Framework** - AAOIFI, IFSB, Basel III, Central Bank reporting
-- **Risk Management** - Takaful (Islamic insurance) with bancassurance integration
+- **Risk Management** - Credit, Market, Operational, Liquidity risk + ICAAP
+- **Basel II/III Compliance** - Pillar 1 (CAR) + Pillar 2 (ICAAP) + Risk Governance
 - **SQL Examples** - Database queries for troubleshooting and reporting
 - **Swift Integration** - Trade finance messages (MT700, MT760, MT400, etc.)
 - **Shariah Compliance** - Full SSB approval workflows and audit procedures
@@ -197,6 +198,13 @@ This platform combines **Islamic Banking Shariah principles** with **Oracle Flex
 - **Bancassurance Integration** - Premium collection, commission income, Flexcube configuration
 - **Takaful Accounting** - PTF vs SF fund accounting, IBNR provisioning, surplus distribution
 
+#### 2️⃣3️⃣ Risk Management Framework
+- **Credit Risk Management** - Internal ratings (PD, LGD, EAD), exposure limits, collateral management, EWS
+- **Market Risk Management** - Profit Rate Risk (PRR), FX risk (NOP, VaR), equity risk, commodity risk
+- **Operational & Liquidity Risk** - BIA/SA capital, RCSA, KRIs, LCR, NSFR, cash flow gap analysis
+- **ICAAP & Risk Governance** - Pillar 2 capital assessment, stress testing, Three Lines of Defense
+- **Flexcube Risk Reporting** - Credit/market/liquidity reports, risk appetite dashboard
+
 ## 🎓 Learning Outcomes
 
 After completing this course, you will be able to:
@@ -224,7 +232,8 @@ After completing this course, you will be able to:
 ✅ **Provisioning (IFRS 9)** - Implement ECL calculation, stage classification
 ✅ **Collections** - Design collection workflows, handle restructuring
 ✅ **Takaful operations** - Configure bancassurance, manage premium collection, process claims
-✅ **Regulatory reporting** - Prepare annual reports, Shariah audit disclosures
+✅ **Risk management** - Implement ICAAP, conduct stress testing, monitor risk appetite
+✅ **Regulatory reporting** - Prepare annual reports, Shariah audit disclosures, Basel compliance
 
 ## 💡 Key Features
 
@@ -325,7 +334,7 @@ npm run preview
 - Troubleshooting scenarios
 
 ### 4️⃣ **Master** - Achieve expertise
-- Complete module coverage (102+ topics)
+- Complete module coverage (106+ topics)
 - Track progress and achievements
 - Earn certificates (Bronze → Silver → Gold → Platinum → Master)
 - Apply to real-world Islamic banking implementations
@@ -459,14 +468,16 @@ MIT License - Free for educational and commercial use.
 
 ## 🎓 Course Completion Certificate
 
-Upon completing all 102 topics, learners achieve **Master** status and gain comprehensive expertise in:
+Upon completing all 106 topics, learners achieve **Master** status and gain comprehensive expertise in:
 
 ✅ Islamic Banking Shariah Principles
 ✅ Oracle Flexcube UBS Implementation
 ✅ Solution Architecture & Design
 ✅ GL Accounting & Financial Reporting
 ✅ International Trade Finance (LC, Guarantees, Collections)
-✅ Takaful & Risk Management (Islamic Insurance)
+✅ Takaful (Islamic Insurance) & Bancassurance
+✅ Risk Management (Credit, Market, Operational, Liquidity)
+✅ Basel II/III & ICAAP (Pillar 2 Capital Assessment)
 ✅ Swift Message Integration
 ✅ Shariah Compliance & Governance
 ✅ Regulatory Compliance (AAOIFI, IFSB, Basel III)
