@@ -303,6 +303,33 @@ npm run build
 npm run preview
 ```
 
+### 🌐 Deployment to Google Cloud Platform
+
+**Three options available** (from cheapest to advanced):
+
+#### Option 1: Cloud Storage (RECOMMENDED - $1-5/month)
+```bash
+# Quick deploy with one command
+chmod +x deploy-cloud-storage.sh
+./deploy-cloud-storage.sh YOUR-PROJECT-ID
+```
+
+#### Option 2: App Engine ($35-70/month)
+```bash
+chmod +x deploy-app-engine.sh
+./deploy-app-engine.sh YOUR-PROJECT-ID
+```
+
+#### Option 3: Cloud Run ($0-10/month, pay-per-use)
+```bash
+chmod +x deploy-cloud-run.sh
+./deploy-cloud-run.sh YOUR-PROJECT-ID
+```
+
+**📖 Complete deployment guides:**
+- **Quick Start:** See `QUICK_START_DEPLOY.md` (5-minute guide)
+- **Full Documentation:** See `DEPLOYMENT_GUIDE_GCP.md` (comprehensive)
+
 ### Quick Start Guide
 
 1. **Start with Foundation** - Master Riba, Gharar, and core principles

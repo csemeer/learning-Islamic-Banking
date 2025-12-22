@@ -1,0 +1,38 @@
+runtime: nodejs20
+
+# App Engine configuration for Islamic Banking Learning Platform
+
+handlers:
+  # Serve all static files from dist directory
+  - url: /assets
+    static_dir: dist/assets
+    secure: always
+    expiration: "1y"
+    http_headers:
+      Cache-Control: "public, max-age=31536000, immutable"
+
+  # Serve index.html for all routes (SPA routing)
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html
+    secure: always
+    http_headers:
+      Cache-Control: "no-cache, no-store, must-revalidate"
+
+# Instance class (F1 = free tier eligible)
+instance_class: F1
+
+# Automatic scaling configuration
+automatic_scaling:
+  min_instances: 0
+  max_instances: 5
+  min_idle_instances: 0
+  max_idle_instances: 1
+  min_pending_latency: 1000ms
+  max_pending_latency: 5000ms
+  target_cpu_utilization: 0.65
+  target_throughput_utilization: 0.65
+
+# Environment variables
+env_variables:
+  NODE_ENV: "production"
